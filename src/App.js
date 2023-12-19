@@ -1,10 +1,12 @@
 import './App.css';
 import BasicComponent from './BasicComponent';
+import StylingComponent from './StylingComponent';
 
 function App() {
   return (
     <div className="App">
-      <BasicComponent/>
+      {/* <BasicComponent/> */}
+      <StylingComponent/>
     </div>
   );
 }

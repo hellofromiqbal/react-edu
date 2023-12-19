@@ -1,0 +1,13 @@
+$primaryColor: magenta;
+$secondaryColor: black;
+$tertiaryColor: yellow;
+
+.plainCSS {
+  background-color: $primaryColor;
+  width: max-content;
+  color: $tertiaryColor;
+
+  &:hover {
+    color: $secondaryColor;
+  }
+}
